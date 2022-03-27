@@ -22,10 +22,7 @@ namespace DiasAatras.ConsoleApp
 
                 } while (dataValida == false);
 
-
-                Console.Write("\nA quantidade de anos entre as datas é: {0}\n", verificador.CalcularAnos());
-                
-                Console.Write("\nA quantidade de meses entre as datas é: {0}\n", verificador.CalcularMeses());
+                verificador.CalcularTempo();
             }
         }
     }
